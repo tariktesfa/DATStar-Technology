@@ -17,7 +17,8 @@
 
 ## Screenshot
 
-![screenshot_datstar](https://user-images.githubusercontent.com/38283436/147120285-800367fc-3201-4706-b6e8-896fd4fa7d6c.png)
+![screenshot_datstar](https://user-images.githubusercontent.com/38283436/147200947-44efbc44-e058-4206-afa1-ab2cb5e72a56.png)
+
 
 
 ## Live Demo
