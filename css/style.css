@@ -229,7 +229,7 @@ ul {
 }
 
 .card-explanatory-about {
-  margin: 40px 40px;
+  margin: 40px 10px;
   padding: 10px;
   border: 1px solid;
   background-color: var(--white);
@@ -443,7 +443,8 @@ ul {
   padding-left: 10px;
 }
 
-.partners-list {
+.partners-list,
+.partners-list-about {
   padding-top: 10vh;
   padding-bottom: 5vh;
   background-color: var(--dark);
@@ -509,7 +510,8 @@ ul {
   padding: 45px 45px;
 }
 
-.footer-copy-right {
+.footer-copy-right,
+.footer-about {
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -520,7 +522,8 @@ ul {
   align-self: center;
 }
 
-.footer-copy-right p {
+.footer-copy-right p,
+.footer-about p {
   font-size: 16px;
   line-height: 25px;
   margin: 0;
@@ -531,7 +534,8 @@ ul {
   text-align: center;
 }
 
-.footer-copy-right p:last-child {
+.footer-copy-right p:last-child,
+.footer-about p:last-child {
   display: none;
 }
 
@@ -727,6 +731,10 @@ ul {
     display: none;
   }
 
+  .partners-list-about {
+    display: none;
+  }
+
   .title-info-about {
     width: 80%;
     margin: auto;
@@ -846,9 +854,23 @@ ul {
     grid-template-columns: 1fr 2fr;
   }
 
-  .footer-copy-right p:last-child {
+  .footer-copy-right p:last-child,
+  .footer-about p:last-child {
     margin-top: 12px;
     display: block;
+  }
+
+  #footer-about {
+    background-color: var(--dark);
+    width: 100%;
+  }
+
+  #footer-about p {
+    color: var(--white);
+  }
+
+  #footer-description {
+    padding-right: 100px;
   }
 
   .desktop-angle {
