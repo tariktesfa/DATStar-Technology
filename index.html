@@ -1,12 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DatStar Technology</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <script src="https://use.fontawesome.com/75d401af0c.js"></script>
+  <title>DATStar Technology</title>
 </head>
+
 <body>
-  
+  <header class="page-header">
+    <div class="mobile-navigaion-block">
+      <button type="button" aria-label="open menu" class="open-menu open">
+        <i class="fa fa-bars"></i>
+      </button>
+      <nav class="mobile-nav">
+        <button type="button" aria-label="close menu" class="close-menu close">
+          <i class="fa fa-close"></i>
+        </button>
+        <ul>
+          <li><a class="close active" href="./index.html">Home</a></li>
+          <li><a class="close" href="./about.html">About</a></li>
+          <li><a class="close" href="#">Service</a></li>
+          <li><a class="close" href="#">Blogs</a></li>
+          <li><a class="close" href="#">Support</a></li>
+          <li><a class="close" href="#">News</a></li>
+          <li class="bordered-link"><a class="close" href="#">CONTACT US</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="desktop-navigation">
+      <div class="top-nav-bar">
+        <ul>
+          <li><a href="www.facebook/DatStarTechnology" class="social-icons"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="#" class="social-icons"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="t.me/datstartech3" class="social-icons"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+          <li><a href="DatStarTechnology@gmail.com" class="social-icons"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+          <li><a href="index.html" class="social-icons">My Page</a></li>
+        </ul>
+      </div>
+      <div class="header-container">
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./images/logo.png" alt="DATStar Technology">
+          </a>
+        </div>
+        <nav class="desktop-nav">
+          <ul>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#blog">Blogs</a></li>
+            <li><a href="#support">Support</a></li>
+            <li><a href="#news">News</a></li>
+            <li class="bordered-link"><a href="#">CONTACT US</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="main-section-container">
+    <div class="transparent">
+      <div class="main-section">
+        <h2 class="title-intro">
+          <q>Welcome to DATStar Technology</q>
+        </h2>
+        <h1 class="title-info">Your Number One GPS Tracking and Security System</h1>
+        <div class="description">
+          <p>We offer a system that allows our clients to remotely control their assets. Our system assists the client in managing vehicle usage, 
+        fuel, tire performance, driver performance, and vehicle maintenance.</p>
+        </div>
+        <div class="office">
+          <h2>We are open from Monday ~ Saturday(12AM)</h2>
+          <p>You can reach us: <br> @Cabey Building 3rd floor, Room Number: 304</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <section class="main-service">
+    <h2 class="section-titles">Main Services</h2>
+    <hr class="section-title-separators">
+    <ul class="main-service-grid">
+      <li class="service-list">
+        <div class="service-icon">
+          <img src="./images/system.png" alt="">
+        </div>
+        <div class="service-title">
+          <h3>Top-Notch Design</h3>
+        </div>
+        <div class="service-description">
+          <p>Our tracking unit is designed with latest technology which makes it work with all kinds of vehicles.</p>
+        </div>
+      </li>
+      <li class="service-list">
+        <div class="service-icon">
+          <img src="./images/realtime.png" alt="">
+        </div>
+        <div class="service-title">
+          <h3>Realtime Tracking</h3>
+        </div>
+        <div class="service-description">
+          <p>You can see where all of your vehicles are in real time 24/7.</p>
+        </div>
+      </li>
+      <li class="service-list">
+        <div class="service-icon">
+          <img src="./images/battery.png" alt="">
+        </div>
+        <div class="service-title">
+          <h3>Backup Battery</h3>
+        </div>
+        <div class="service-description">
+          <p>All our trackers come with inbuilt battery that can last for day in the event of removing the vehicle battery.</p>
+        </div>
+      </li>
+      <li class="service-list">
+        <div class="service-icon">
+          <img src="./images/notch2.png" alt="">
+        </div>
+        <div class="service-title">
+          <h3>Easy Compatibility</h3>
+        </div>
+        <div class="service-description">
+          <p>You can use any kind of data enabled smartphone with our tracking service. You don’t need a new phone.</p>
+        </div>
+      </li>
+      <li class="service-list">
+        <div class="service-icon">
+          <img src="./images/maintenance.png" alt="">
+        </div>
+        <div class="service-title">
+          <h3>Nationwide Installation</h3>
+        </div>
+        <div class="service-description">
+          <p>We have resident installer in every major city all over the country which make timely installation possible.</p>
+        </div>
+      </li>
+    </ul>
+    <a href="" class="see-all">SEE THE WHOLE SERVICE</a>
+  </section>
+  <section class="support-team">
+    <h2 class="support-section-titles">Support Teams</h2>
+    <hr class="section-title-separators">
+    <ul class="support-list-items" id="support-list">
+    </ul>
+    <button type="button" class="more">More <i class="fa fa-angle-down"></i></button>
+  </section>
+  <section class="partners-list">
+    <h2 class="section-titles">Partners</h2>
+    <hr class="section-title-separators">
+    <ul id="partners-list-items" class="partners-list-items">
+      <li class="partners-items">
+        <a target="blanc" href="https://enrichagroindustry.com/">
+          <img src="./images/enrich.png" alt="Enrich Logo" />
+        </a>
+      </li>
+      <li class="partners-items">
+        <a target="blanc" href="https://www.awashbank.com/">
+          <img src="./images/awash.png" alt="Awash bank logo" />
+        </a>
+      </li>
+      <li class="partners-items">
+        <a target="blanc" href="https://www.mahle.com/">
+          <img src="./images/mahle.png" alt="Mahle logo" />
+        </a>
+      </li>
+      <li class="partners-items">
+        <a target="blanc" href="https://ethiopiamarket.com/directory/company/cabey-plc/">
+          <img src="./images/lem.png" alt="Cabey logo" />
+        </a>
+      </li>
+      <li class="partners-items">
+        <a target="blanc" href="https://heinekenethiopia.com/">
+          <img src="./images/heineken.png" alt="Heineken logo" />
+        </a>
+      </li>
+    </ul>
+  </section>
+  <footer class="footer">
+    <div class="full-log">
+      <a href="./index.html" class="logo-2">
+        <img src="./images/dat.png" alt="DATStar Technology logo">
+      </a>
+    </div>
+    <div class="footer-copy-right">
+      <p>DATStar Technology plc.<br> Address: Addis Ababa,Ethiopia.<br>
+        Office: Cabey Building 3rd floor, Room No. 304.</p>
+      <p>Protect and take 100% control of your vehicles with the  latest, advanced and effective technology and experience peace of mind by knowing the real time location of your vehicle at all time.</p>
+    </div>
+  </footer>
+  <script src="./js/main.js"></script>
 </body>
+
 </html>
