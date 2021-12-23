@@ -25,7 +25,8 @@
 
 [live demo](https://tariktesfa.github.io/DATStar-Technology/)
 
-##Live video
+## Live video
+
 [Live Video](https://www.loom.com/share/23de79c6c4024b608bbddc00f3822354)
 
 ## Get Started
